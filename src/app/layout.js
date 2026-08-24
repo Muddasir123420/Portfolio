@@ -3,7 +3,7 @@ import './globals.css';
 
 export const metadata = {
   title: 'Muddasir Khan - Portfolio',
-  description: 'Software Engineer & MERN Stack Developer portfolio'
+  description: 'Software Engineer & Full Stack Developer portfolio'
 };
 
 export default function RootLayout({ children }) {

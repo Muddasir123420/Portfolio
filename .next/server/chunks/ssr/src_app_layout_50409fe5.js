@@ -1,3 +1,0 @@
-module.exports=[29735,a=>{"use strict";a.s(["default",()=>d,"metadata",()=>c]);var b=a.i(7997);let c={title:"Muddasir Khan - Portfolio",description:"Software Engineer & MERN Stack Developer portfolio"};function d({children:a}){return(0,b.jsxs)("html",{lang:"en",children:[(0,b.jsx)("head",{children:(0,b.jsx)("link",{href:"https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css",rel:"stylesheet"})}),(0,b.jsx)("body",{className:"bg-[var(--bg-color)] text-[var(--text-color)]",children:a})]})}}];
-
-//# sourceMappingURL=src_app_layout_50409fe5.js.map

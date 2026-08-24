@@ -49,6 +49,7 @@ export default function Contact() {
   const socials = [
     { href: 'https://www.linkedin.com/in/muhammad-muddasir-khan-661178429/', icon: <FaLinkedinIn />, label: 'LinkedIn' },
     { href: 'https://github.com/Muddasir123420', icon: <FaGithub />, label: 'GitHub' },
+    { href: 'https://mail.google.com/mail/?view=cm&fs=1&to=muhammadmuddasirkhan7@gmail.com', icon: <FaEnvelope />, label: 'Email' },
   ];
 
   return (

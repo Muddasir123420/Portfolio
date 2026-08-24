@@ -61,7 +61,7 @@ export default function Experience() {
                 )}
               </div>
               <p className="text-[#9ED0E0] text-sm font-medium mb-2">{job.org}</p>
-              <p className="text-slate-400 text-sm mb-2">{job.desc}</p>
+              <p className="text-slate-400 text-sm mb-2 text-justify sm:text-left">{job.desc}</p>
               <p className="text-slate-500 text-xs font-mono">{job.date}</p>
             </div>
           </div>

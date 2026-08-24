@@ -40,7 +40,7 @@ export default function Portfolio() {
             {it.title}
           </h5>
 
-          <p className="text-slate-400 text-sm mb-4">{it.desc}</p>
+          <p className="text-slate-400 text-sm mb-4 text-justify sm:text-left">{it.desc}</p>
 
           <div className="flex flex-wrap gap-2">
             {it.tags.map((tag) => (

@@ -18,8 +18,8 @@ import {
 export default function Home() {
   const texts = [
     'Software Engineer',
-    'MERN Stack Developer',
     'Full Stack Developer',
+    'Web & App Developer',
     'Flutter Developer',
   ];
 
@@ -90,7 +90,7 @@ export default function Home() {
 
           {/* tags */}
           <div className="flex flex-wrap gap-2 justify-center lg:justify-start mb-5">
-            {['MERN Stack', 'React.js', 'Node.js', 'MongoDB', 'REST APIs', 'Flutter'].map((tag) => (
+            {['Full Stack', 'React.js', 'Node.js', 'MongoDB', 'REST APIs', 'Flutter'].map((tag) => (
               <span
                 key={tag}
                 className="px-4 py-1.5 rounded-full border border-[#6FA3B840] bg-[#6FA3B815] text-[#cdebf5] text-sm hover:scale-105 transition"
@@ -100,11 +100,10 @@ export default function Home() {
             ))}
           </div>
 
-          <p className="text-slate-400 leading-7 text-base max-w-lg mb-6">
-            Final-year Software Engineering student and full-stack developer
-            who builds modern, scalable web applications with the MERN stack —
-            from database design to clean, functional user interfaces.
-            Currently interning at Al-Raheem Technologies.
+          <p className="text-slate-400 leading-7 text-base max-w-lg mb-6 text-justify sm:text-left">
+            Fresh Graduate Software Engineer and full-stack developer who builds
+            modern, scalable web applications — from database design to clean,
+            functional user interfaces. Currently interning at Al-Raheem Technologies.
           </p>
 
           {/* buttons */}
@@ -185,7 +184,7 @@ export default function Home() {
             style={{ animationDelay: '1s' }}
           >
             <Briefcase size={16} className="text-[#9ED0E0]" />
-            MERN Developer
+            Full Stack Developer
           </div>
         </div>
       </div>
