@@ -49,7 +49,7 @@ export default function Contact() {
   const socials = [
     { href: 'https://www.linkedin.com/in/muhammad-muddasir-khan-661178429/', icon: <FaLinkedinIn />, label: 'LinkedIn' },
     { href: 'https://github.com/Muddasir123420', icon: <FaGithub />, label: 'GitHub' },
-    { href: 'mailto:muhammadmuddasirkhan7@gmail.com?subject=Portfolio%20Inquiry', icon: <FaEnvelope />, label: 'Email' },
+    { href: 'https://mail.google.com/mail/?view=cm&fs=1&to=muhammadmuddasirkhan7@gmail.com&su=Portfolio%20Inquiry', icon: <FaEnvelope />, label: 'Email' },
   ];
 
   return (
@@ -67,7 +67,9 @@ export default function Contact() {
               <div className="space-y-6">
                 {/* Email */}
                 <a
-                  href="mailto:muhammadmuddasirkhan7@gmail.com?subject=Portfolio%20Inquiry"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=muhammadmuddasirkhan7@gmail.com&su=Portfolio%20Inquiry"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-4 text-slate-200 group hover:text-[#38bdf8] transition-colors"
                 >
                   <div className="w-10 h-10 rounded-xl bg-[#1d2d54] text-[#38bdf8] flex items-center justify-center shrink-0 text-lg shadow-inner group-hover:scale-105 transition-transform">
@@ -111,8 +113,8 @@ export default function Contact() {
                 <a
                   key={item.label}
                   href={item.href}
-                  target={item.href.startsWith('http') ? '_blank' : undefined}
-                  rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-11 h-11 rounded-full bg-[#182647]/70 border border-[#253966] text-white hover:text-[#0b1120] hover:bg-[#38bdf8] hover:border-[#38bdf8] flex items-center justify-center text-lg transition-all duration-300 shadow-md"
                   aria-label={item.label}
                 >
