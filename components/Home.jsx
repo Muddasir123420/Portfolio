@@ -137,7 +137,7 @@ export default function Home() {
           {/* socials */}
           <div className="flex gap-4 justify-center lg:justify-start">
             {[
-              { href: 'https://mail.google.com/mail/?view=cm&fs=1&to=muhammadmuddasirkhan7@gmail.com', icon: <FaEnvelope />, label: 'Email' },
+              { href: 'mailto:muhammadmuddasirkhan7@gmail.com?subject=Portfolio%20Inquiry', icon: <FaEnvelope />, label: 'Email' },
               { href: 'https://www.linkedin.com/in/muhammad-muddasir-khan-661178429/', icon: <FaLinkedinIn />, label: 'LinkedIn' },
               { href: 'https://github.com/Muddasir123420', icon: <FaGithub />, label: 'GitHub' },
             ].map((item, i) => (
@@ -145,7 +145,7 @@ export default function Home() {
                 key={i}
                 href={item.href}
                 target={item.href.startsWith('http') ? '_blank' : undefined}
-                rel={item.href.startsWith('http') ? 'noreferrer' : undefined}
+                rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
                 className="w-12 h-12 rounded-xl border border-[#6FA3B830] bg-white/5 backdrop-blur-md flex items-center justify-center text-[#9ED0E0] text-xl hover:scale-110 hover:border-[#9ED0E0] hover:shadow-[0_0_22px_#6FA3B870] transition-all duration-300"
                 aria-label={item.label}
               >
